@@ -1,0 +1,185 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: #f0f0f0;
+    font-family: 'IM Fell English', serif;
+    color: #032407;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 0px;
+}
+
+.container-box{
+    display: grid;
+    grid-gap: 10px;
+    padding: 0 40px;
+    grid-template-areas: 
+        'a b c d'
+        'a e f f'
+        'a e f f';
+        
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: #11b56e5d;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.box p{
+    text-align: justify;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.titulo {
+    color: #063923ec;
+    font-weight: 500;
+    font-family: 'IM Fell English', serif;
+}
+
+.principal {
+    color: #f0f0f0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: start;
+    padding: 0 20px;
+}
+
+.imagem{   
+    width:200px;
+    height:134px;
+    border-radius: 10px;
+}
+
+.navio{
+    width: 70%;
+    height: 70%;
+}
+
+b{
+    color:  #063923ec; ;
+}
+
+.botao {
+    background-color: #ffffff8e;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #063923ec;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.a{
+    grid-area: a;
+}
+
+.a p {
+    padding: 0 15px 15px 15px;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+.e{
+    grid-area: e;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+.f{
+    grid-area: f;
+}
+
+hr {
+    width: 20%;
+    height: 1px;
+    background-color: #575757;
+    border: none;
+    margin-left: 13px;
+}
+
+.quiabo-header {
+    background-color: #063923ec;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.quiabo-header .menu a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.quiabo-header .menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
+
+main {
+    padding: 20px;
+}
+
+.quiabo-footer {
+    background-color: #063923ec;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.quiabo-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.quiabo-contato a{
+    color: #ffffffc9;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quiabo-contato a:hover {
+    color: #11b56e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
